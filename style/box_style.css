@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: #0f0f0f;
+}
+
+.container{
+    background: #cccccc;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 600px;
+    margin: 20px;
+    width: 50%;
+    background: linear-gradient(to right, red, cyan);
+    color: white;
+    
+}
+
+.container .imagebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .imagebox img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    align-items: center;
+    align-content: center;
+}
